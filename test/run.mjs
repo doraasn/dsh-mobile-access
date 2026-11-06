@@ -22,7 +22,7 @@ const ctx = {
   effect: (fn) => { dispose = fn() },
 }
 
-apply(ctx)
+apply(ctx, { port: 3455 })
 assert.equal(routes.length, 1, '应注册一条管理路由')
 assert.equal(routes[0].path, '/mobile-access/api')
 
