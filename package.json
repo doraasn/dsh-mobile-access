@@ -1,5 +1,5 @@
 {
-  "name": "@local/dsh-mobile-access",
+  "name": "dsh-mobile-access",
   "version": "0.1.0",
   "description": "DSH 移动访问：轻量反向代理 + 设备配对 + 移动页模块裁剪，隧道交给外部 cloudflared/cpolar",
   "type": "module",
@@ -47,5 +47,8 @@
   "homepage": "https://github.com/doraasn/dsh-mobile-access#readme",
   "bugs": {
     "url": "https://github.com/doraasn/dsh-mobile-access/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
